@@ -42,10 +42,10 @@ function submitPage2() {
 
 function navigateToPage2() {
   console.log("Navigating to Page 2");
-  window.location.href = 'page2.html';
+  window.location.href = 'Page2.html';
 }
 
 function navigateToPage3() {
   console.log("Navigating to Page 3");
-  window.location.href = 'page3.html';
+  window.location.href = 'Page3.html';
 }
