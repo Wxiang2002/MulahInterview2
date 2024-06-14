@@ -1,0 +1,157 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: auto ;
+  padding: auto;
+  padding-left: 20px;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+
+button {
+  margin-bottom: 10px;
+}
+
+#userData {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.p3 p{
+  color: black;
+}
+
+p {
+  display: block;
+  color: black;
+
+}
+
+button{
+  color: white;
+  border-radius: 15px;
+  border: none;
+  background-color: #f47521;
+  font-weight: bold;
+  height: 50px;
+  margin: 20px;
+}
+
+.p1form #phoneNumber{
+  width: 400px;
+  border: none;
+  border-bottom: #000000 solid 1px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.pnumber div{
+  display: flex;
+  align-items: center;
+}
+
+.p1form {
+  
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p{
+  position: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.p1description{
+  color: #f47521;
+  text-align: left;
+  align-items: left;
+}
+
+.Mulah{
+  color: #f47521;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+div h1{
+  text-align: center;
+  justify-content: center;
+}
+
+.secondheader{
+  color:grey;
+}
+
+ul{
+  width: fit-content;
+}
+li{
+  list-style-type: none;
+  width:200px;
+}
+
+.p1form input{
+  border:none;
+}
+
+.p1form select{
+ width: 80px;
+
+}
+
+#countryCode{
+  height: 30px;
+  border: none;
+  border-bottom:  black solid 1px;
+}
+
+ #page2Form #name, #day, #month, #year, #email{
+  border: lightgray solid 1px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 15px;
+ }
+
+ #page2Form #day, #month, #year{
+  margin-bottom: 20px;
+ }
+
+ #page2Form #name, #email{
+  width:350px; 
+ }
+
+ .p3 {
+  display : flex ;
+  flex-direction: column;
+  padding-left: 20px; 
+  justify-content:center;
+  align-items: center;
+}
+ .p3 div{
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  width: 400px;
+  justify-content:center;
+  align-items: center;
+ }
+
+ .p3 div p{
+  padding-left: 20px;
+  height: 30px;
+ }
+
+ .p3 #email{
+  border:none;
+ }

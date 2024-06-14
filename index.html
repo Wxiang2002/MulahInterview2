@@ -1,0 +1,41 @@
+<!-- Page 1: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1 class="Mulah">Mulah</h1>
+  </div>
+    <div>
+    <h1 class="'secondheader">Hello,<br>Welcome !</h1>
+    </div>
+    <p class="p1description">
+       Check Your Loyalty Points & Rewards
+    </p>
+    <div class="p1form">
+    <form id="page1Form" onsubmit="submitPage1(); return false;">
+      <div class="pnumber">
+        <label for="phoneNumber"></label>
+        <select id="countryCode" onchange="updatePhoneNumber()">
+          <option value="+60">+60</option>
+          <option value="+65">+65</option>
+          </select>
+         
+        <input type="tel" id="phoneNumber" placeholder="Enter Your Mobile Number" required>
+      </div>
+        <button type="submit" >Check Loyalty Points</button>
+    </form>
+    </div>
+    </ul>
+    <script src="script.js"></script>
+</body>
+<footer>
+  <hr>
+    <p>Powered by <a href="https://www.mulahrewards.com/" target="_blank">MulahRewards.com</a></p>
+</footer>
+</html>

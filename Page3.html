@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 class="Mulah">Mulah</h1>
+        </div>
+    <div class="p3">
+    <div>
+    <p>Name:</p>
+    <p id="name"></p>
+    </div><br>
+    <div>
+    <p>Birthday:</p>
+    <p id="birthday"></p>
+    </div><br>
+    <div>
+    <p>Email:</p>
+    <p id="email"></p>
+    </div><br>
+    <div>
+    <p>Phone Number:</p>
+    <p id="phoneNumber"></p>
+    </div><br>
+</div>
+    <script>
+        window.onload = function() {
+            var name = localStorage.getItem('name');
+            var birthday = localStorage.getItem('birthday');
+            var email = localStorage.getItem('email');
+            var phoneNumber = localStorage.getItem('phoneNumber');
+    
+            document.getElementById('name').textContent = name;
+            document.getElementById('birthday').textContent = birthday; 
+            document.getElementById('email').textContent = email;
+            document.getElementById('phoneNumber').textContent = phoneNumber;
+        };
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+<footer>
+    <hr>
+     <p>Powered by <a href="https://www.mulahrewards.com/" target="_blank">MulahRewards.com</a></p>
+</footer>
+</html>
